@@ -35,6 +35,6 @@ No known issues
 
 Initial alpha release of refsharp
 
-### 0.7.0 - alpha [Kingsman]
+### 0.9.0 - alpha [Kingsman]
 
 Add configuration item to use either direct references (`#r` only), or indirect references (`#I` & `#r`)
