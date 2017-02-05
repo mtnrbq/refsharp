@@ -1,12 +1,18 @@
 # refsharp README
 
-refsharp allows you to add F# references (`#r`) to the current .fsx file by right clicking on a .dll in the explorer window.
+refsharp allows you to add F# references and include paths (`#r` and optionally `#I`) to the current .fsx file by right clicking on a .dll in the explorer window.
 
 ## Features
 Direct reference insertion (`#r` only)
+```json
+"refsharp.useDirectReferences": true
+```
 ![useDirectReferences-true](screencap/useDRT.gif)
 
 Include path and reference insertion (`#I` & `#r`)
+```json
+"refsharp.useDirectReferences": false
+```
 ![useDirectReferences-false](screencap/useDRF.gif)
 
 
@@ -29,6 +35,6 @@ No known issues
 
 Initial alpha release of refsharp
 
-### 0.7.0 - alpha (Kingsman)
+### 0.7.0 - alpha [Kingsman]
 
 Add configuration item to use either direct references (`#r` only), or indirect references (`#I` & `#r`)
