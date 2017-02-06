@@ -30,11 +30,14 @@ No known issues
 
 ## Release Notes
 
+### 0.9.1 - alpha [Kingsman+]
 
-### 0.6.0 - alpha
-
-Initial alpha release of refsharp
+Populated `CHANGELOG.md` file
 
 ### 0.9.0 - alpha [Kingsman]
 
 Add configuration item to use either direct references (`#r` only), or indirect references (`#I` & `#r`)
+
+### 0.6.0 - alpha
+
+Initial alpha release of refsharp
